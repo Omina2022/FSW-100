@@ -1,0 +1,106 @@
+ <html>
+<head>
+    <title>Positioning</title>
+    <link rel="stylesheet" href="Styles.css">
+    
+        <style>
+        header{
+            width: 100%;
+            background-color: wheat;
+            color: black;
+            font-size: 40 px;
+            height: 50 px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0; 
+         }
+      
+    .box{
+    width: 500px;
+    min-height: 700px;
+    border: 5px solid black;
+    margin: 80px auto;
+    text-align: center;
+    }
+    .photo1{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        max-height: 300px;
+        min-height: 180px;
+        background: 5px solid black;
+        /* margin: 80px auto; */
+        margin: auto;
+        text-align: center;
+    }
+    .photo2{
+        width: 90%;
+        max-height: 300px;
+        min-height: 180px;
+        background: 5px solid black;
+        margin: auto;
+        text-align: center;
+        display: flex;
+    }
+    .photo3{
+        width: 90%;
+        max-height: 300px;
+        min-height: 180px;
+        background: 5px solid black;
+        margin: auto;
+        text-align: center;
+        display: flex;
+    }
+    .photo1 img, .photo2 img, .photo3 img {
+        width: 150px;
+        height: 150px
+    }
+    h2, p{
+        margin: 0px;
+        padding: 0;
+    }
+    h5, p{
+        margin: 10;
+        padding: 0;
+        
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+        
+
+    <div class="box">
+        <p>History</p>
+        <div class="photo1">
+            <div>
+                <h2>Colorado</h2>
+            <p>Denver, Colorado was founded in 1858. It grew rapidly and by 1900 it was a flourishing city with a population of 133,000 people. Meanwhile, Colorado was organized as a territory on 28 February 1861. It was admitted to the union as the 38th state on 1 August 1876.</p>
+            <h5>December 10,2018</h5>
+        </div>
+            <img src="https://images.unsplash.com/photo-1423450822265-fcd97e52ecb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1504&q=80" alt="Colorado">
+        </div>
+        <div class="photo2">
+            <div>
+                <h2>California</h2>
+                <p>The first Spanish missionaries arrived in California in the 1700s, but California didn’t become a U.S. territory until 1847, as part of the treaty ending the Mexican-American War</p>
+           <h5>January 5, 2020</h5>
+            </div>
+                <img src="https://images.unsplash.com/photo-1503891450247-ee5f8ec46dc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="California">
+        </div>
+        <div class="photo3">
+            <div>
+                <h2>Arizona</h2>
+            <p>Contents. Arizona, the Grand Canyon state, achieved statehood on February 14, 1912, the last of the 48 coterminous United States to be admitted to the union. Originally part of Spanish and Mexican territories, the land was ceded to the United States in 1848, and became a separate territory in 1863</p>
+        <h5>October 12, 2022</h5>
+        </div>
+            <img src="https://images.unsplash.com/photo-1533066636271-fdbe3e84ad80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" alt="Arizona">
+        </div>
+    </div>
+</body>
+</html>
