@@ -1,0 +1,52 @@
+.box{
+    border: 2px ;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        border: 5px solid white;
+        min-height: 80px;
+       
+
+    }
+    
+    .gridcontainer{
+        display: grid; 
+         /* grid-template-columns: 1ft; */
+        column-gap:20px;
+        row-gap: 20px
+        
+    }
+    .gridcontainer div {
+        width: 100px;
+        margin: 1px;
+        border: white;
+         
+    }
+    .box1{
+
+       background: repeat 2ft;; background-color: #F5C6D6;
+       min-height: 80px ;
+    }
+    .box2{
+        background-color: #EE2E84;
+        min-height: 80px ;
+       
+        
+    }
+    .box3{
+        background-color:#85CFD8 ;
+        min-width: 100px;
+        min-height: 80px;
+    }
+    .box4{ 
+    background-color: #8DC63F;
+ 
+    min-height: 80px;
+    }
+    .box5{ 
+    background-color:#E76E34;
+   
+    min-height: 80px;
+       }
+}
