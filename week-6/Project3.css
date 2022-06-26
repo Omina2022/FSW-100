@@ -1,0 +1,81 @@
+div{
+    border: 2px;
+    background-color: rgb(182, 218, 206);
+}
+
+@media screen and (min-width:768px){
+    .flex-container{
+        border: 10px solid black;
+        min-height: fit-content;
+}
+
+.photo1{
+    /* background: 1px solid black; */
+    width: 50px;
+    
+ 
+}
+.photo2{
+    /* background: 1px solid black; */
+    width: 50px;
+    /* height:auto; */
+}
+.photo3{
+    /* background: 1px solid black; */
+    width:50px;
+    /* height:auto; */
+
+}
+.photo4{
+    /* background: 1px solid black; */
+    width: 50px;
+    /* height:auto; */
+ 
+}
+.container{
+ border: 2px solid bisque;
+ min-height: auto;
+}
+.Instagramm{
+    background-color: pink;
+    width: 100px;
+    height: 60px;
+    border: 1px solid black;
+    transition:  background-color black; border-radius: 11mm;
+}
+.Instagramm :hover{
+    background-color: white;
+    width: 200px;
+}
+.Facebook{
+    background-color: pink;
+    width: 90px;
+    height: 50px;
+    border: 1px solid black;
+    transition:  background-color black; border-radius: 11mm;
+}
+.Facebook :hover{
+    background-color:white;
+    width: 150px;
+}
+.Twitter{
+    background-color: pink;
+    width: 80px;
+    height: 50px;
+    border: 1px solid black;
+    transition:  background-color black; border-radius: 11mm;
+}
+.Twitter:hover{
+    background-color:white;
+    width: 90px;
+}
+
+
+
+    .flex-container{
+        display: flex;
+        
+        background-color: rgb(191, 226, 226);
+    }
+    
+}
