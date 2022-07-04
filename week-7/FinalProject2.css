@@ -1,0 +1,150 @@
+.navbar{
+   display: flex;
+   flex-direction:column;
+   background-color: #26A69A;
+   color: black;
+   padding: 5px 5px;
+   border-radius: 10px;
+} 
+@media screen and (min-width:768px){
+    .navbar{
+        border: 5px solid black;
+        min-height: fit-content;
+        flex-direction:column;
+        justify-content: space-between;
+
+    }
+}
+
+@media screen and (max-width:1000px){
+    .navbar{
+        border: 5px solid black;
+        min-height: fit-content;
+    }
+}
+.body{
+    font-family: sans-serif;
+    
+}
+
+
+
+
+.name{
+    display: flex;
+    padding: 5px;
+    min-width: 200px;
+    justify-content: space-between;
+    
+}
+
+.shop{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Fashion{
+  padding: 15px 15px;
+  background-color:35px  white;
+
+}
+
+
+.info{
+    float:right;
+   color: rgb(20, 110, 122);
+    font-family: 'Splash', cursive;
+    text-align: center;
+    
+}
+
+.Photo1{
+    float: right;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+  
+    background-color:white;
+}
+.style{
+    padding: 5px;
+
+}
+
+
+.romantic{
+    background-color: #26A69A;
+    display:flex;
+    flex-direction: column;
+    float: left;
+    width: 300px;   
+}
+
+#photo2{
+    flex-direction: column;
+    float:right;
+    border-radius: 10px;
+    width:150px;
+    height: 150px;
+    margin: 15px;
+}
+
+.casual{
+    background-color: #26A69A;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    border-radius:5px;
+    width: 300px;
+}
+
+.photo3{
+    flex-direction: column;
+    float:right;
+    background: 5px solid black;
+   height: 150px;
+   width: 150px;
+   border-radius: 10px;
+   margin: 15px;
+}
+
+.glam{
+    background-color: #26A69A;
+    display: flex;
+    flex-direction:column;
+    float: left;
+    border-radius:5px;
+    width: 250px;
+}
+
+.photo4{
+    flex-direction:column;
+    float:right;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+}
+
+/* .grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    padding:5px;
+}
+
+.grid-item{
+    background-color: #26A69A;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+} */
+
+.quote{
+    display: flex;
+    background-image:url("https://images.unsplash.com/photo-1557777586-f6682739fcf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80") ;
+  width: 500px;
+  height: 300px;
+    
+}
