@@ -3,39 +3,109 @@ div{
     background-color: rgb(182, 218, 206);
 }
 
-@media screen and (min-width:768px){
-    .flex-container{
-        border: 10px solid black;
-        min-height: fit-content;
+header{
+    background-color: bisque;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    gap: 30px;
 }
 
-.photo1{
-    /* background: 1px solid black; */
-    width: 50px;
+header h1{
+    font-size: 1.1rem;
+}
+nav{
+    display: flex;
+    margin-left:auto ;
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+    border:2px solid black
+}
+
+
+.grid-main-container{
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);
+    text-align: center;
+    gap: 10px;
+}
+
+
+@media screen and (min-width:720px){
+    .grid-main-container{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        text-align: center;
+        gap: 10px;
+    }
+    }
     
- 
-}
-.photo2{
-    /* background: 1px solid black; */
-    width: 50px;
-    /* height:auto; */
-}
-.photo3{
-    /* background: 1px solid black; */
-    width:50px;
-    /* height:auto; */
+    nav a {
+        text-decoration: none;
+        font-size:1.2rem ;
+        color: brown;
+    transition: all  0.5s ease-in-out;
+    }
+
+@media screen and (min-width:1000px){
+.grid-main-container{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    text-align: center;
+    gap: 10px;
 
 }
-.photo4{
-    /* background: 1px solid black; */
-    width: 50px;
-    /* height:auto; */
- 
+header h1{
+    font-size: 2rem;
 }
-.container{
- border: 2px solid bisque;
- min-height: auto;
+
+nav a {
+    text-decoration: none;
+    font-size:1.2rem ;
+    color: brown;
+transition: all  0.5s ease-in-out;
 }
+}
+
+@media screen and(min-width:1500px) {
+    .grid-main-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        gap: 10px;
+    
+}
+header h1{
+    font-size: 2rem;
+}
+
+nav a:hover{
+    margin-bottom: 10px;
+    color: rgb(255, 0, 106);
+}
+}
+
+
+main{
+    margin-top: 50px;
+}
+
+
+.photo{
+    width: 100%;
+
+}
+
+.photo img{
+    width: 50%;
+}
+
 .Instagramm{
     background-color: pink;
     width: 100px;
@@ -70,12 +140,3 @@ div{
     width: 90px;
 }
 
-
-
-    .flex-container{
-        display: flex;
-        
-        background-color: rgb(191, 226, 226);
-    }
-    
-}
